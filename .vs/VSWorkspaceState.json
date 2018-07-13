@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\EasyNet.Comment.Dapper"
   ],
-  "SelectedNode": "\\src",
+  "SelectedNode": "\\src\\EasyNet.Comment.Dapper\\EasyNet.Comment.Dapper.csproj",
   "PreviewInSolutionExplorer": false
 }
