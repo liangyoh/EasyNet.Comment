@@ -3,8 +3,12 @@
 ################################################################################
 
 /src/EasyNet.Comment/obj
+/src/EasyNet.Comment/bin
 /src/EasyNet.Comment.Dapper/bin/Debug/netstandard2.0
 /src/EasyNet.Comment.Dapper/obj
+/src/EasyNet.Comment.Dapper/bin
+/src/EasyNet.Comment.Autofac/obj
+/src/EasyNet.Comment.Autofac/bin
 src/.vs/EasyNet.Comment/v15/Server/sqlite3/db.lock
 v15
 v15

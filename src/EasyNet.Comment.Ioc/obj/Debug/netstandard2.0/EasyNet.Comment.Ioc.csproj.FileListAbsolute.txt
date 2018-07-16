@@ -1,0 +1,8 @@
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\bin\Debug\netstandard2.0\EasyNet.Comment.Ioc.deps.json
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\bin\Debug\netstandard2.0\EasyNet.Comment.Ioc.dll
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\bin\Debug\netstandard2.0\EasyNet.Comment.Ioc.pdb
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\obj\Debug\netstandard2.0\EasyNet.Comment.Ioc.csproj.CoreCompileInputs.cache
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\obj\Debug\netstandard2.0\EasyNet.Comment.Ioc.AssemblyInfoInputs.cache
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\obj\Debug\netstandard2.0\EasyNet.Comment.Ioc.AssemblyInfo.cs
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\obj\Debug\netstandard2.0\EasyNet.Comment.Ioc.dll
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Ioc\obj\Debug\netstandard2.0\EasyNet.Comment.Ioc.pdb

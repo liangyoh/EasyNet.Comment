@@ -1,0 +1,11 @@
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\bin\Debug\netstandard2.0\EasyNet.Comment.Log4Net.deps.json
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\bin\Debug\netstandard2.0\EasyNet.Comment.Log4Net.dll
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\bin\Debug\netstandard2.0\EasyNet.Comment.Log4Net.pdb
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\bin\Debug\netstandard2.0\EasyNet.Comment.dll
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\bin\Debug\netstandard2.0\EasyNet.Comment.pdb
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\obj\Debug\netstandard2.0\EasyNet.Comment.Log4Net.csprojResolveAssemblyReference.cache
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\obj\Debug\netstandard2.0\EasyNet.Comment.Log4Net.csproj.CoreCompileInputs.cache
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\obj\Debug\netstandard2.0\EasyNet.Comment.Log4Net.AssemblyInfoInputs.cache
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\obj\Debug\netstandard2.0\EasyNet.Comment.Log4Net.AssemblyInfo.cs
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\obj\Debug\netstandard2.0\EasyNet.Comment.Log4Net.dll
+D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.Log4Net\obj\Debug\netstandard2.0\EasyNet.Comment.Log4Net.pdb

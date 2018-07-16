@@ -258,7 +258,20 @@ namespace EasyNet.Comment.Dapper
         {
             return connection.QueryAsync<T>(BuildQuerySQL(condition, table, columns, isOr), condition, transaction, commandTimeout);
         }
-
+        /// <summary>
+        /// Query a list of data from procedure with specified condition.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="connection"></param>
+        /// <param name="condition"></param>
+        /// <param name="procedure"></param>
+        /// <param name="transaction"></param>
+        /// <param name="commandTimeout"></param>
+        /// <returns></returns>
+        public static IEnumerable<T> QuereyProcedure<T>(this IDbConnection connection, DynamicParameters condition, string procedure, IDbTransaction transaction = null, int? commandTimeout = null)
+        {
+            return connection.Query<T>(procedure, (object)condition, transaction, true, commandTimeout, CommandType.StoredProcedure);
+        }
         private static string BuildQuerySQL(dynamic condition, string table, string selectPart = "*", bool isOr = false)
         {
             var conditionObj = condition as object;
