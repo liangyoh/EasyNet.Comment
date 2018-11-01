@@ -9,3 +9,15 @@ D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.JsonNet\obj\Debug\netst
 D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.JsonNet\bin\Debug\netstandard2.0\EasyNet.Comment.JsonNet.pdb
 D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.dll
 D:\liangyoh\projects\EasyNet.Comment\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.pdb
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\bin\Debug\netstandard2.0\EasyNet.Comment.JsonNet.deps.json
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\bin\Debug\netstandard2.0\EasyNet.Comment.JsonNet.dll
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\bin\Debug\netstandard2.0\EasyNet.Comment.JsonNet.pdb
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\bin\Debug\netstandard2.0\EasyNet.Comment.dll
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\bin\Debug\netstandard2.0\EasyNet.Comment.pdb
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.csprojAssemblyReference.cache
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.csproj.CoreCompileInputs.cache
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.AssemblyInfoInputs.cache
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.AssemblyInfo.cs
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.csproj.CopyComplete
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.dll
+D:\Projects\EasyNet\src\EasyNet.Comment.JsonNet\obj\Debug\netstandard2.0\EasyNet.Comment.JsonNet.pdb

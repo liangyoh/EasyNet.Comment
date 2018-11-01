@@ -9,16 +9,30 @@ using Newtonsoft.Json.Serialization;
 
 namespace EasyNet.Comment.JsonNet
 {
-    /// <summary>Json.Net implementationof IJsonSerializer.
+    /// <summary>
+    /// Json.Net implementationof IJsonSerializer.
+    /// <para>日期：对于日期格式字符串的序列化，需要在字段增加属性 [JsonConverter(typeof(DateTimeConverter))] </para>
+    /// <para>序列化名称：对于需要自定义序列化名称，需要在字段增加属性 [JsonProperty(PropertyName = "CName")] </para>
+    /// <para>属性是否序列化：在字段增加属性 [JsonIgnore] </para>
+    /// <para>枚举值的自定义格式化问题：对于需要格式化成枚举对应的字符，需要在字段增加属性 [JsonConverter(typeof(StringEnumConverter))] </para>
+    /// <para>全局设置是否忽略空值：设置Settings的NullValueHandling</para>
     /// </summary>
     public class NewtonsoftJsonSerializer : IJsonSerializer
     {
-        public JsonSerializerSettings Settings { get; private set; }
+        /// <summary>
+        /// 可配置通用的序列号和反序列号的规则
+        /// <para>DefaultValueHandling：是否忽略默认值属性</para>
+        /// <para>NullValueHandling：是否忽略空值</para>
+        /// <para>Converters：转换函数</para>
+        /// </summary>
+        public JsonSerializerSettings Settings { get; set; }
 
         public NewtonsoftJsonSerializer()
         {
             Settings = new JsonSerializerSettings
             {
+                DefaultValueHandling = DefaultValueHandling.Include,
+                NullValueHandling = NullValueHandling.Include,
                 Converters = new List<JsonConverter> { new IsoDateTimeConverter() },
                 ContractResolver = new CustomContractResolver(),
                 ConstructorHandling = ConstructorHandling.AllowNonPublicDefaultConstructor
@@ -65,6 +79,36 @@ namespace EasyNet.Comment.JsonNet
 
                 return jsonProperty;
             }
+        }
+    }
+
+    public class DateTimeConverter : DateTimeConverterBase
+    {
+        private DateTimeConverter() {}
+
+
+        private static string _datetimeFormatter = "yyyy-MM-dd hh:mm:ss";
+        public static string DateTimeFormatter
+        {
+            get
+            {
+                return _datetimeFormatter;
+            }
+            set
+            {
+                _datetimeFormatter = value;
+            }
+        }
+
+        private static IsoDateTimeConverter dtConverter = new IsoDateTimeConverter { DateTimeFormat = DateTimeFormatter };
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        {
+            return dtConverter.ReadJson(reader, objectType, existingValue, serializer);
+        }
+
+        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        {
+            dtConverter.WriteJson(writer, value, serializer);
         }
     }
 }

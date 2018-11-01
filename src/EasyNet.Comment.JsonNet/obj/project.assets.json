@@ -33,7 +33,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "NETStandard.Library/2.0.0": {
+      "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -134,14 +134,13 @@
         "runtime.json"
       ]
     },
-    "NETStandard.Library/2.0.0": {
-      "sha512": "7jnbRU+L08FXKMxqUflxEXtVymWvNOrS8yHgu9s6EM8Anr6T/wIX4nZ08j/u3Asz+tCufp3YVwFSEvFTPYmBPA==",
+    "NETStandard.Library/2.0.3": {
+      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
-      "path": "netstandard.library/2.0.0",
+      "path": "netstandard.library/2.0.3",
       "files": [
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "build/NETStandard.Library.targets",
         "build/netstandard2.0/NETStandard.Library.targets",
         "build/netstandard2.0/ref/Microsoft.Win32.Primitives.dll",
         "build/netstandard2.0/ref/System.AppContext.dll",
@@ -258,15 +257,16 @@
         "build/netstandard2.0/ref/netstandard.dll",
         "build/netstandard2.0/ref/netstandard.xml",
         "lib/netstandard1.0/_._",
-        "netstandard.library.2.0.0.nupkg.sha512",
+        "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
     },
     "Newtonsoft.Json/11.0.2": {
-      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "sha512": "znZGbws7E4BA9jxNZ7FuiIRI3C9hrgatVQSTKhIYZYNOud4M5VfGlTYi6RdYO5sQrebFuF/g9UEV3hOxDMXF6Q==",
       "type": "package",
       "path": "newtonsoft.json/11.0.2",
       "files": [
+        ".signature.p7s",
         "LICENSE.md",
         "lib/net20/Newtonsoft.Json.dll",
         "lib/net20/Newtonsoft.Json.xml",
@@ -348,10 +348,11 @@
       ]
     },
     "System.Runtime/4.1.0": {
-      "sha512": "v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
+      "sha512": "65riy5Q9uVSgNyGp3YpDJqIQW++xDDFTFUV+NL8oTjlIRnfpuqO8oULEV19cuDZQSDi90lALA6bz9nBLldpoPw==",
       "type": "package",
       "path": "system.runtime/4.1.0",
       "files": [
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -446,31 +447,28 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "EasyNet.Comment >= 1.0.0",
-      "NETStandard.Library >= 2.0.0",
+      "NETStandard.Library >= 2.0.3",
       "Newtonsoft.Json >= 11.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liangyoh\\.nuget\\packages\\": {},
+    "D:\\MyData\\liangyh27\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\liangyoh\\projects\\EasyNet.Comment\\src\\EasyNet.Comment.JsonNet\\EasyNet.Comment.JsonNet.csproj",
+      "projectUniqueName": "D:\\Projects\\EasyNet\\src\\EasyNet.Comment.JsonNet\\EasyNet.Comment.JsonNet.csproj",
       "projectName": "EasyNet.Comment.JsonNet",
-      "projectPath": "D:\\liangyoh\\projects\\EasyNet.Comment\\src\\EasyNet.Comment.JsonNet\\EasyNet.Comment.JsonNet.csproj",
-      "packagesPath": "C:\\Users\\liangyoh\\.nuget\\packages\\",
-      "outputPath": "D:\\liangyoh\\projects\\EasyNet.Comment\\src\\EasyNet.Comment.JsonNet\\obj\\",
+      "projectPath": "D:\\Projects\\EasyNet\\src\\EasyNet.Comment.JsonNet\\EasyNet.Comment.JsonNet.csproj",
+      "packagesPath": "D:\\MyData\\liangyh27\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\EasyNet\\src\\EasyNet.Comment.JsonNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\liangyoh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\MyData\\liangyh27\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -483,8 +481,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "D:\\liangyoh\\projects\\EasyNet.Comment\\src\\EasyNet.Comment\\EasyNet.Comment.csproj": {
-              "projectPath": "D:\\liangyoh\\projects\\EasyNet.Comment\\src\\EasyNet.Comment\\EasyNet.Comment.csproj"
+            "D:\\Projects\\EasyNet\\src\\EasyNet.Comment\\EasyNet.Comment.csproj": {
+              "projectPath": "D:\\Projects\\EasyNet\\src\\EasyNet.Comment\\EasyNet.Comment.csproj"
             }
           }
         }
@@ -501,12 +499,12 @@
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.0.0",
+            "version": "[2.0.3, )",
             "autoReferenced": true
           },
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "11.0.2"
+            "version": "[11.0.2, )"
           }
         },
         "imports": [
