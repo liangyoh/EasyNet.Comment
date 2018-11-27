@@ -27,6 +27,20 @@ namespace EasyNet.Comment.Context
             return this;
         }
 
+        public IocContainerContext RegisterType<TService, TImplementer>(string serviceName = null, LifeStyle lifeStyle = LifeStyle.Singleton)
+            where TService : class
+            where TImplementer : class, TService
+        {
+            IocContainerInvoker.RegisterType(typeof(TService), typeof(TImplementer), serviceName, lifeStyle);
+            return this;
+        }
+
+        public IocContainerContext RegisterType(Type typeService, Type typeImplementer, string serviceName = null, LifeStyle lifeStyle = LifeStyle.Singleton)
+        {
+            IocContainerInvoker.RegisterType(typeService, typeImplementer, serviceName, lifeStyle);
+            return this;
+        }
+
         public IocContainerContext Register<TService, TImplementer>(TImplementer instance, string serviceName = null)
             where TService : class
             where TImplementer : class, TService

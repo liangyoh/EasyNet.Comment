@@ -60,9 +60,17 @@
       <Project>{7408ac5d-ce16-4d8e-a7e4-8bd2f2f7e336}</Project>
       <Name>EasyNet.Comment.Autofac</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EasyNet.Comment.Dapper\EasyNet.Comment.Dapper.csproj">
+      <Project>{d9b05d91-b1f9-4e01-bd88-47bf8ace2fb9}</Project>
+      <Name>EasyNet.Comment.Dapper</Name>
+    </ProjectReference>
     <ProjectReference Include="..\EasyNet.Comment.Log4Net\EasyNet.Comment.Log4Net.csproj">
       <Project>{f2d8a370-29eb-40fd-8c85-4042fb3399fc}</Project>
       <Name>EasyNet.Comment.Log4Net</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EasyNet.Comment.Repository\EasyNet.Comment.Repository.csproj">
+      <Project>{b6c4df88-3552-438d-8848-b5f7bba4ff46}</Project>
+      <Name>EasyNet.Comment.Repository</Name>
     </ProjectReference>
     <ProjectReference Include="..\EasyNet.Comment\EasyNet.Comment.csproj">
       <Project>{2d4fd2d7-ac70-4f0a-bcc9-7b25cad3b339}</Project>
